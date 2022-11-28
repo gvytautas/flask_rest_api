@@ -60,7 +60,6 @@ class Stock(db.Model):
 
 with app.app_context():
     import forms
-
     db.create_all()
 
 
